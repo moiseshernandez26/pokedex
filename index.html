@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Pokedex</title>
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+      <!-- Create a spinner loading-->
+    <div class="loading hidden">
+        <div class='spinner'></div>
+        <span class="label-spinner">Loading...</span>
+    </div>
+    <form action="" id="search" class="form">
+      <input
+        type="text"
+        name="search"
+        placeholder="Search Pokemon"
+        id="search-input"
+        class="input-control"
+      />
+      <button type="submit" class="btn">Buscar</button>
+    </form>
+
+    <div id="pokedex">
+      <div id="left">
+        <div id="logo"></div>
+        <div id="bg_curve1_left"></div>
+        <div id="bg_curve2_left"></div>
+        <div id="curve1_left">
+          <div id="buttonGlass">
+            <div id="reflect"></div>
+          </div>
+          <div id="miniButtonGlass1"></div>
+          <div id="miniButtonGlass2"></div>
+          <div id="miniButtonGlass3"></div>
+        </div>
+        <div id="curve2_left">
+          <div id="junction">
+            <div id="junction1"></div>
+            <div id="junction2"></div>
+          </div>
+        </div>
+        <div id="screen">
+          <div id="topPicture">
+            <div id="buttontopPicture1"></div>
+            <div id="buttontopPicture2"></div>
+          </div>
+          <div id="picture">
+            <img
+              src="https://cdn.dribbble.com/users/621155/screenshots/2835314/simple_pokeball.gif"
+              alt="pokemon"
+              id="img-pokemon"
+            />
+          </div>
+          <div id="buttonbottomPicture"></div>
+          <div id="speakers">
+            <div class="sp"></div>
+            <div class="sp"></div>
+            <div class="sp"></div>
+            <div class="sp"></div>
+          </div>
+        </div>
+        <div id="bigbluebutton"></div>
+        <div id="barbutton1"></div>
+        <div id="barbutton2"></div>
+        <div id="cross">
+          <div id="leftcross">
+            <div id="leftT"></div>
+          </div>
+          <div id="topcross">
+            <div id="upT"></div>
+          </div>
+          <div id="rightcross">
+            <div id="rightT"></div>
+          </div>
+          <div id="midcross">
+            <div id="midCircle"></div>
+          </div>
+          <div id="botcross">
+            <div id="downT"></div>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <div id="stats">
+          <strong>Name:</strong> <span id="name"></span><br />
+          <strong>Types:</strong> <span id="type"></span><br />
+        </div>
+        <div id="blueButtons1">
+          <div class="blueButton"><span>HP</span></div>
+          <div class="blueButton"><span>ATK</span></div>
+          <div class="blueButton"><span>DF</span></div>
+          <div class="blueButton"><span>S.ATK</span></div>
+          <div class="blueButton"><span>S.DF</span></div>
+        </div>
+        <div id="blueButtons2">
+          <div class="blueButton"><span id="hp"></span></div>
+          <div class="blueButton"><span id="attack"></span></div>
+          <div class="blueButton"><span id="defense"></span></div>
+          <div class="blueButton"><span id="special-attack"></span></div>
+          <div class="blueButton"><span id="special-defense"></span></div>
+        </div>
+        <div id="miniButtonGlass4"></div>
+        <div id="miniButtonGlass5"></div>
+        <div id="barbutton3"></div>
+        <div id="barbutton4"></div>
+        <div id="yellowBox1"></div>
+        <div id="yellowBox2"></div>
+        <div id="bg_curve1_right"></div>
+        <div id="bg_curve2_right"></div>
+        <div id="curve1_right"></div>
+        <div id="curve2_right"></div>
+      </div>
+    </div>
+  </body>
+</html>
